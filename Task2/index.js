@@ -20,5 +20,3 @@ if (randomNumber === argv._[0]) {
   console.log(`${argv._[0]}, Отгадано !!! загаданное число ${randomNumber}`);
   return
 }
-
-// console.log('argv', argv);
