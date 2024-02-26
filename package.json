@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "current": "./Task1/index.js"
+    "current": "./Task1/index.js",
+    "random": "./Task2/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

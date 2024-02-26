@@ -3,8 +3,6 @@ const yargs = require('yargs/yargs')
 const { hideBin } = require('yargs/helpers')
 
 const currentDate = new Date();
-console.log('currentDate', currentDate.toLocaleDateString());
-// const isoDate = currentDate.toISOString()
 
 const argv = yargs(hideBin(process.argv))
   .option('year', {
