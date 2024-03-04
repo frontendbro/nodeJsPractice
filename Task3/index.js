@@ -8,7 +8,7 @@ const randomNumber = Math.floor(Math.random() * 2) + 1;
 const userNumber = argv._[0]
 const fileLogPath = argv._[1]
 
-const logString = `${userNumber === randomNumber ? 'win' : 'lose'}, userNumber: ${userNumber}, randomNumber: ${randomNumber} \n`
+const logString = `${userNumber === randomNumber ? 'win' : 'lose'}, userNumber: ${userNumber}, randomNumber: ${randomNumber};`
 
 if (userNumber > 2 || userNumber < 0) {
   console.log('загаданное число больше или меньше 1 или 2');
