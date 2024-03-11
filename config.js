@@ -1,2 +1,1 @@
-export const myApiKey = process.env.myApiKey
-export const defaultCity = 'London'
+const myApiKey = '12fb5b8f1d2343caadd190352241003'
