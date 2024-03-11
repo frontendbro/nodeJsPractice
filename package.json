@@ -8,12 +8,19 @@
     "random": "./Task2/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start1": "./Task1/index.js",
+    "start2": "./Task2/index.js",
+    "start3": "./Task3/index.js",
+    "start4": "./Task4/index.js",
+    "dev4":"node -r dotenv/config ./Task4/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
